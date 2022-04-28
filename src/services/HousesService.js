@@ -6,6 +6,7 @@ export class HousesService {
   async getHouses() {
     const res = await api.get('api/houses')
     AppState.houses = res.data.map(h => new House(h))
+    console.log(res.data)
   }
 
   async getHouseById(houseId) {

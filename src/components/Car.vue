@@ -9,6 +9,7 @@
           class="img-fluid rounded"
         />
       </router-link>
+      
     </div>
   </div>
 </template>

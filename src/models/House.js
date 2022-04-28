@@ -8,6 +8,5 @@ export class House {
    this.price = data.price
    this.imgUrl = data.imgUrl
    this.creatorId = data.creatorId
-   this.creator = data.creator
  }
 }

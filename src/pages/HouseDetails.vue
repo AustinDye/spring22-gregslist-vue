@@ -20,7 +20,7 @@
             <h5>{{ house.bedrooms }}</h5>
             <h5>{{ house.bathrooms }}</h5>
             <h5>{{ house.levels }}</h5>
-            <h5>${{ house.price }}</h5>
+            <h5>{{ house.price }}</h5>
           </div>
           <div class="d-flex p-2">
             <p>{{ house.description }}</p>

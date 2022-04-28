@@ -1,7 +1,8 @@
 <template>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-2"></div>
+      <div class="col-2">
+      </div>
     </div>
     <div class="row p-2">
       <Car v-for="c in cars" :key="c.id" :car="c" />

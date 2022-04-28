@@ -7,5 +7,5 @@ export const AppState = reactive({
   cars: [],
   houses: [],
   car: null,
-  house: null
+  house: {}
 })

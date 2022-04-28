@@ -40,7 +40,7 @@
     <div class="form-group">
       <label for="levels" class="form-label">Levels:</label>
       <input
-        type="color"
+        type="text"
         class="form-control"
         id="levels"
         v-model="editable.levels"
